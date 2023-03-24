@@ -1,0 +1,365 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 24, 2022, 12:27:18 PM
+    Author     : Henrry
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+
+}
+
+#mainBody {
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: relative;
+
+}
+
+
+#container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.side {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #263238;
+    color: #fff;
+    padding: 1rem 3rem;
+}
+
+.main {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 1.5rem;
+
+}
+
+h1 {
+    font-size: 3.1rem;
+    margin-top: 25%;
+    margin-bottom: 2.5rem;
+
+}
+
+ul {
+    margin-left: -1.5rem;
+    font-weight: 300;
+    opacity: 80%;
+}
+
+.logo {
+    margin-top: 3rem;
+    width: 55%;
+    height: auto;
+}
+
+.mainContainer {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDiv {
+
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto;
+    padding: 0rem;
+}
+
+.signIn {
+    margin-bottom: .75rem;
+}
+
+.signIn > h4 {
+    font-size: 1.375rem;
+
+}
+
+.subContainer {
+    width: 100%;
+    height: auto;
+    border: .5px solid #E6E6E6;
+    border-radius: .3rem;
+    font-size: .75rem;
+    margin-bottom: 2rem;
+
+}
+
+.heading {
+    width: 100%;
+    background-color: #E6E6E6;
+    padding: .5rem;
+    color: #202128;
+    margin-bottom: .7rem;
+    border-radius: .1rem;
+    font-size: 1rem;
+}
+
+.checkbox {
+    margin-top: 2.25rem;
+    font-size: 0.875rem;
+    margin-left: .5rem;
+
+}
+
+.robot {
+    font-size: 0.875rem;
+    margin-left: 1.5rem;
+    color: #464646;
+    font-weight: 500;
+
+}
+
+.apply {
+    border-radius: 2rem;
+    background-color: #fff;
+    color: #AD0000;
+    width: 100%;
+    border: 2px solid #AD0000;
+    font-weight: 500;
+    padding: .5rem;
+    font-size: .875rem;
+    margin-top: 1.35rem;
+    /*margin-left: 1.5rem;*/
+
+}
+
+.create {
+    border-radius: 2rem;
+    background-color: #A51414;
+    width: 20%;
+    padding: .2rem;
+    text-align: center;
+    float: right;
+
+}
+
+.createAccount {
+    color: #fff;
+    font-size: .875rem;
+
+}
+
+.createAccount:hover {
+    color: #fff;
+}
+
+
+.divButton {
+    border-radius: 2rem;
+    background-color: #AD0000;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+
+.pButton {
+    border-radius: 2rem;
+    background-color: #AD0000;
+    color: #fff;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: .5rem;
+}
+
+.divButton:hover {
+    color: #fff;
+}
+
+.pButton:hover {
+    color: #fff;
+}
+
+@media (max-width:  1500px) {
+    html {
+        font-size: 85%;
+    }
+
+    .create {
+        width: 25%;
+    }
+
+    .form-check-label {
+        padding: 2px 2px 0px 4px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    html {
+        font-size: 80%;
+    }
+    #container {
+        margin: 0 auto;
+        height: 100%;
+    }
+
+
+    .create {
+        width: 100%;
+    }
+
+    .form-check-label {
+        padding: 4px 2px 0px 8px;
+    }
+
+
+
+    @media (max-width: 980px) {
+        html {
+            font-size: 65%;
+        }
+        #container {
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        .divButton {
+            max-width: 100%;
+        }
+
+        .create {
+            width: 100%;
+        }
+        .form-check-label {
+            padding: 4px 2px 0px 8px;
+        }
+
+
+    }
+
+    @media (max-width:  550px) {
+        html {
+            font-size: 55%;
+        }
+
+        #container {
+            width: 100%;
+            margin: 0 auto;
+            display: block;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .divButton {
+            width: 100%;
+        }
+
+        .create {
+            width: 100%;
+        }
+
+        .form-check-label {
+            padding: 5px 2px 0px 8px;
+        }
+
+        .mob {
+            width: 156%;
+        }
+
+        .apply {
+            width: 90%;
+            margin-left: 2rem;
+        }
+
+        .bill {
+            width: 207%;
+        }
+
+
+    }
+
+
+    @media (max-width: 460px) {
+        html {
+            font-size: 55%;
+        }
+
+    }
+
+    @media (max-width: 460px) {
+        #container {
+            width: 100%;
+            margin: 0 auto;
+            display: block;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+
+        }
+    }
+
+    @media (max-width: 460px) {
+        .side {
+
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+    @media (max-width: 460px) {
+        .main {
+            flex-direction: column;
+        }
+
+        .divButton {
+            max-width: 100%;
+        }
+
+        .create {
+            width: 100%;
+        }
+        .form-check-label {
+            padding: 4px 2px 0px 8px;
+        }
+
+        .mob {
+            width: 156%;
+        }
+
+        .apply {
+            width: 90%;
+            margin-left: 2rem;
+        }
+
+        .bill {
+            width: 207%;
+        }
+
+    }
+}
+
+
